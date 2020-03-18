@@ -1,0 +1,156 @@
+*{
+    font-family: Quicksand;
+    background-color: #f0f8ff;
+    color: rgb(19, 7, 73);
+}
+h1{
+    padding: 20px;
+    text-align: center;
+    color: darkblue;
+    background-color:royalblue;
+    text-shadow: 2px 2px 7px #ffffff;
+    font-family: Arial;
+}
+
+.prod{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: darkblue;
+    background-color:royalblue;
+    text-shadow: 2px 2px 7px #ffffff;
+    font-family: Arial;
+}
+
+#greeting{
+    background-color:  #f0f8ff;
+    color: black;
+    font-weight: bold;
+}
+
+h2{
+    text-align: justify;
+    font-size: medium;
+    color: rgb(185, 47, 162);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h2:first-letter{
+    font-size: 175%;
+}   
+
+table {
+    width: 100%;
+    border: 4.5px solid goldenrod;
+}
+
+#list li{
+    text-align: left;
+}
+
+th, td {
+    padding: 7px;
+    text-align: center;
+    border: 1px solid goldenrod;
+}
+
+th{
+    font-size: larger;
+}
+.head {
+    letter-spacing: 0.4rem;
+}
+
+#feature{
+    text-align: left;
+}
+
+ul {
+    align-items: center;
+}
+
+.apprev, .fitbitrev {
+    border-radius: 25px;
+    background: rgb(197, 188, 188);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+}
+
+.user{
+    background: rgb(197, 188, 188);
+    font-family: sans-serif;
+    font-weight: bold;
+    color: green;
+}
+
+h3{
+    text-align: center;
+}
+
+h3~h2{
+    text-align: center;
+    color: orange;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family: Bruzh;
+}
+
+h4{
+    background: rgb(197, 188, 188);
+    text-transform: capitalize;
+    font-family: lucida sans;
+    color: goldenrod;
+}
+
+
+h4+p{
+    background: rgb(197, 188, 188);
+    font-weight: bold;
+    font-style: italic;
+}
+
+#top{
+    text-align: center;
+    padding: 6px 49% 6px;
+    border: 2px solid #665544;
+    color: #f0f8ff;
+    font-weight: bold;
+    background-color: green;
+}
+
+#link{
+    padding: 6px 12px 6px 12px;
+    border: 2px solid #111111;
+    color: darkblue;
+    font-weight: bold;
+    background: deepskyblue;
+    
+}
+#link:hover{
+    color: rgba(124, 63, 76, 0.849);
+}
+
+#link:visited{
+        color:black;
+}
+
+td.name {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background: hsla(0, 100%, 100%, 1);
+    color: black;
+    vertical-align: left;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: rgb(206, 240, 12);
+}

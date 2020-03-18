@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Fitness Trackers</title>
+        <link type="text/css" rel="stylesheet" href="css/master.css">
+        <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+        <!-- link to external fonts-->
+        <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora|Playfair+Display|Quicksand&display=swap">
+        <style>
+            @font-face{font-family: "Bruzh"; src: url("font/Bruzh.ttf")}
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1 id="up"><span class="prod">Product Comparison:</span> Apple Watch 5 vs Fitbit Versa 2</h1>
+            <link type="text/css" rel="stylesheet" href="css/master.css">
+            <link type="text/css" rel="stylesheet"href="https://fonts.googleapis.com/css?family=Open+Sans">
+        
+            <h1 id="greeting"></h1>
+            <p><button id="mytext" onclick = "myFunction()">Change Greeting Color</button></p>
+            Enter Name: <input type = "text" id="username" name="username"><button onclick = "submit()">Submit</button>
+        </header>
+        
+        <h2>Apple products are always my go to brand.  I have always owned Apple products.  
+            However, lately I have been using FitBit Versa 2 which I received as a gift and I came up with comparisons between Apple Watch and FitBit Versa 2.  
+            I have been using both of them for a while now.. Hope this helps you decide which one is for you.
+            At a glance both watches look a little similar. Both have square cases, interchangeable strap designs. The only major 
+            difference is the cost, you'll need to pay twice as much to get it. </h2>
+
+        <main>
+            <table>
+                <tr>
+                    <td class="name"><img class="img" src = "images/apple.jpg" alt = "Apple watch" width = "300"></img><br />Apple Watch Series 5</td>
+                    <td class="name"><img class="img" src = "images/versa.jpg" alt = "Fibit Versa" width = "325"></img><br />FitBit Versa 2</td>
+                </tr>
+                
+                <tr>
+                    <td>Buy it for <s>$400.00</s> $384.00 at Amazon.com <br />
+                    <p><a id="link" href="https://www.amazon.com/Apple-Watch-GPS-40mm-Aluminum/dp/B07XQXZZ6H/ref=redir_mobile_desktop?ie=UTF8&aaxitk=x41CD.NIWAQpOQ1Bolva3A&hsa_cr_id=3446927520001&ref_=sb_s_sparkle" target="_blank">Click Here</a></p>
+                    <p><a href="#review1" id="Review1">Reviews</a></p>
+                </td>
+                    <td>Buy it for $196.99 at Amazon.com <br />
+                    <p><a id="link" href="https://www.amazon.com/Fitbit-Fitness-Smartwatch-Tracking-Included/dp/B07TVC2KLW/ref=sr_1_2?keywords=fitbit+versa+2+pink&qid=1584403230&s=hpc&sr=1-2" target="_blank">Click Here</a></p>
+                    <p><a href="#review2" id="Review">Reviews</a></p>
+                </td>
+                </tr>
+                
+                <tr>
+                    <th scope="row" colspan="2" width="200">PRODUCT DESCRIPTION</th>                
+                </tr>
+                <tr>
+                    <td width="200">Apple Watch Series 5 has a display that's always on, showing the time and important information - no need to raise your wrist. Tracks your workouts and activity. 
+                    and makes it easy as the interface is similar to iPhone, which I am super comfortable with.
+                    <br />
+                    <p><b>Price</b>: $<span id="aprice"></span></p>
+                    <p><b>Student Price</b>: $<span id="adisc"></span></p>
+                </td>
+
+                    <td width="200">Fitbit Versa 2 is a great Fitness tracker. The built-in Amazon Alexa is a awesome feature.  This allows to create alarms, set bedtime reminders using my voice.
+                        Its design is modern and versatile. <br />
+                        <p><b>Price</b>: $<span id="fprice"></span></p>
+                        <p><b>Student Price</b>: $<span id="fdisc"></span></p>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <th scope="row" colspan="2" width="200">PRODUCT FEATURES</th>
+                </tr>
+                
+                <tr>
+                    <td>
+                    <ul id="list">
+                        <li>GPS + Cellular</li>
+                        <li>Always-On Retina display</li>
+                        <li>30% larger screen</li>
+                        <li>Swimproof</li>
+                    </ul>
+                    </td>
+                    
+                    <td>
+                        <ul id="list">
+                            <li>Compatible with Android and iOS devices</li>
+                            <li>Amazon Alexa built in voice control</li>
+                            <li>SmartTrack</li>
+                            <li>Water-resistant</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+                
+                <h3>PRODUCT REVIEWS</h3>
+                <h2 id="review1">Apple Watch Reviews</h2>    
+                <div class="apprev">
+                    <p class="user">Meghan K</p>
+                    <h4>Great Watch</h4>
+                        <p>Love all the health and workout items you can track as well as emails, phone calls and text messages. Great watch</p>
+                </div>
+                <br />
+                <div class="apprev">
+                    <p class="user"> Adrian D</p>
+                    <h4>Try it! you will like it</h4>
+                    <p>This is a great portable small computer with links on your wrist.</p>
+                </div>
+                <br />
+
+                
+                <div class="apprev">
+                    <p class="user">Ethan R</p>
+                    <h4>DO NOT BUY</h4>
+                    <p> The glass easily cracks if you drop it accidentally from waist height.</p>
+                </div>
+                <br />
+
+                <h2 id="review2">FitBit Versa Reviews</h2>
+                <div class="fitbitrev">
+                    <p class="user">Emma T</p>
+                    <h4>Watch out for this one</h4>
+                        <p>Synching issues. My phone said it was connected, but I couldn't get notifications.</p>
+                </div> <br />
+
+                <div class="fitbitrev">
+                    <p class="user">Maryanne S</p>
+                    <h4>Good Purchase</h4>
+                    <p>This Fitbit Versa 2 Smartwatch has helped me take more steps every day.</p>
+                </div><br />
+                
+                <div class="fitbitrev">
+                    <p class="user">Patrick M</p>
+                    <h4>Affordable</h4>
+                    <p>If you are an apple fan this review is not for you, but if you want a good way to track your activity sleep 
+                        and heart rate while having some fun extras on your wrist for an affordable price then Versa 2 is perfect.</p>
+                    </div><br />
+        </main>
+    <footer>
+        <p>
+            <a href="#up" id="top">Top</a> 
+        </p> <br />
+    </footer>
+        <script src="js/scripts.js"></script>
+</body>
+</html>
